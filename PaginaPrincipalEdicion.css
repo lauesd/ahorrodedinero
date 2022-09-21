@@ -1,37 +1,44 @@
 .Bienvenidxs{
     color: blue;
-    font-size: 400%;
+    font-size: 300%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 100px;
-    text-align: center;
+    margin-left: 300px;
 }
 .Bienvenidxs_img{
     border-radius: 0%;
     width: 400px;
     height: 400px;
-    display: inline-flex;   
     margin-left: 450px;
 
 }
 .Foros{
-    font-size: 400%;
+    font-size: 300%;
+    margin-left: 125px;
 }
 .Foros_img{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+    bottom: 200px;
 }
 .Tutoriales{
-    font-size: 400%;
-}
-.Tutoriales_img{
-    width: 500px;
-    height: 500px;
+    font-size: 300%;
+    margin-left: 500px;
 
 }
+.Tutoriales_img{
+    width: 400px;
+    height: 400px;
+    margin-left: 425px;
+    
+    
+}
 .Pregunta_AH{
-    font-size: 400%;
+    font-size: 250%;
+    padding-left: 925px;
 }
 .Pregunta_AH_img{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+    margin-left: 900px;
+
 }
