@@ -1,0 +1,91 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* No Scrollbar */
+    overflow: hidden;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.AH_imagen{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 125px;
+    top: 75px;
+    
+}
+.Registro{
+    position: relative;
+    left: 100px;
+}
+.form-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 75px;
+}
+
+.form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"] {
+    position:relative;
+    bottom: 80px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.form-box{
+    background-color: yellow;
+}
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+    position: relative;
+    bottom: 80px;
+    width: 280px;
+    border-color: #ffffff;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #5352ed;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
+.Olvido_Contraseña{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+
+}

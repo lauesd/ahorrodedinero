@@ -1,0 +1,99 @@
+.Iniciar_sesion{
+    position: relative;
+    left: 375%;
+    bottom: 120px;
+    border: 30px solid #020070; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color:#020070 ; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 10px; /*bordes redondos*/
+}
+
+header{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    z-index: 100;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+.AhorroDeDinero{
+    position: relative;
+    bottom: 12px;
+    left: 1px;
+    font-size: 300%;
+    color: yellow;
+}
+#AH_img{
+    position: relative;
+    border-radius: 0%;
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    
+}
+nav ul li #AH_img:hover {
+    margin-top: 3px;
+}
+.Foros{
+    position: relative;
+    font-size: 300%;
+    left: 125px;
+    top: 250px;
+    
+}
+.Foros_img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 250px;
+    
+}
+.Tutoriales{
+    font-size: 300%;
+    position: relative;
+    left: 540px;
+    bottom: 300px;
+    
+}
+.Tutoriales_img{
+    width: 400px;
+    height: 400px;
+    position:relative;
+    text-align: center;
+    left: 450px;
+    bottom: 300px;
+}
+.Pregunta_AH{
+    position: relative;
+    font-size: 250%;
+    left: 900px;
+    bottom: 825px;
+}
+.Pregunta_AH_img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 900px;
+    bottom: 825px;
+}
+
+body{
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 500px;
+    height: 200px;
+}
+
